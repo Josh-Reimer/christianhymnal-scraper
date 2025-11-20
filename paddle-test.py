@@ -1,11 +1,5 @@
-# Import paddle first to set the device
-import paddle
-paddle.set_device('gpu') # Enforce GPU usage
-
-# Import the specific result type if needed for isinstance check
-# from paddlex.inference.pipelines.ocr.result import OCRResult
-# Note: Importing specific classes might not always be necessary or possible depending on the exact version's structure.
-# Using duck typing or checking for attributes is often safer.
+# Note: GPU usage is handled by the installed paddlepaddle-gpu package if configured correctly
+# We are not explicitly setting the device using paddle.set_device('gpu')
 
 from paddleocr import PaddleOCR
 import fitz  # PyMuPDF
@@ -43,6 +37,7 @@ def process_pdf_with_ocr(pdf_path, lang='en'):
     Process PDF with OCR and return results for all pages
     """
     # Initialize PaddleOCR with updated parameters
+    # Note: use_gpu parameter is not used in this version of the API
     ocr = PaddleOCR(lang=lang, use_textline_orientation=True) 
     
     # Convert PDF to images
@@ -60,11 +55,12 @@ def process_pdf_with_ocr(pdf_path, lang='en'):
             img_array = cv2.cvtColor(img_array, cv2.COLOR_GRAY2RGB)
         
         # Perform OCR using the new predict method
+        # The result is a list containing an OCRResult object (dict-like)
         result = ocr.predict(img_array)
         results.append({
             'page': i+1,
             'image': img,
-            'ocr_result': result
+            'ocr_result': result # Keep the full result list
         })
     
     return results
@@ -76,7 +72,7 @@ def visualize_pdf_results(results):
     for page_data in results:
         page_num = page_data['page']
         image = page_data['image']
-        result = page_data['ocr_result']
+        result_list = page_data['ocr_result']
         
         # Create matplotlib figure
         fig, ax = plt.subplots(figsize=(12, 15))
@@ -84,49 +80,32 @@ def visualize_pdf_results(results):
         ax.set_title(f'OCR Results - Page {page_num}')
         ax.axis('off')
         
-        # Draw bounding boxes and text labels
-        # The result is now an OCRResult object, not a list of [bbox, [text, conf]]
-        # We need to access its attributes like rec_polys and rec_texts
-        # This part is complex because the structure is different
-        # Let's focus on text extraction for now, visualization needs adjustment
-        # For now, just print the result type and attributes for visualization
-        print(f"Page {page_num} result type for visualization: {type(result)}")
-        if hasattr(result, 'rec_polys') and hasattr(result, 'rec_texts'):
-             # This visualization logic needs adjustment for the new structure
-             # It's more complex now as the relationship between polys and texts might be different
-             # Or the 'boxes' attribute might be more direct
-             if hasattr(result, 'rec_boxes') and hasattr(result, 'rec_texts'):
-                 boxes = getattr(result, 'rec_boxes', [])
-                 texts = getattr(result, 'rec_texts', [])
-                 # boxes shape is (N, 4) -> [x1, y1, x2, y2]
-                 # polys shape is (N, 4, 2) -> [[x1, y1], [x2, y2], [x3, y3], [x4, y4]]
-                 # Let's try using boxes first, fallback to polys if needed
-                 if len(boxes) > 0 and len(texts) == len(boxes):
-                     for box, text in zip(boxes, texts):
-                         # Convert [x1, y1, x2, y2] to [[x1, y1], [x2, y1], [x2, y2], [x1, y2]]
-                         bbox = [[box[0], box[1]], [box[2], box[1]], [box[2], box[3]], [box[0], box[3]]]
-                         poly = Polygon(bbox, fill=False, edgecolor='red', linewidth=2)
-                         ax.add_patch(poly)
-                         ax.text(
-                             box[0],  # x coordinate
-                             box[1] - 10,  # y coordinate (adjusted up)
-                             f'{text}',
-                             fontsize=8,
-                             bbox=dict(facecolor='yellow', alpha=0.7, edgecolor='none')
-                         )
-                 elif hasattr(result, 'rec_polys') and len(getattr(result, 'rec_polys', [])) > 0 and len(texts) == len(getattr(result, 'rec_polys', [])):
-                      # Use rec_polys if boxes are not available or don't match
-                      polys = getattr(result, 'rec_polys', [])
-                      for poly, text in zip(polys, texts):
-                          poly_patch = Polygon(poly, fill=False, edgecolor='red', linewidth=2)
-                          ax.add_patch(poly_patch)
-                          ax.text(
-                              poly[0][0],  # x coordinate
-                              poly[0][1] - 10,  # y coordinate (adjusted up)
-                              f'{text}',
-                              fontsize=8,
-                              bbox=dict(facecolor='yellow', alpha=0.7, edgecolor='none')
-                          )
+        # The result is a list, get the first element which is the OCRResult dict
+        if result_list and len(result_list) > 0:
+            ocr_result = result_list[0] # Extract the OCRResult object (dict-like)
+            
+            # Check if the required keys exist in the OCRResult
+            if isinstance(ocr_result, dict) and 'dt_polys' in ocr_result and 'rec_texts' in ocr_result:
+                boxes = ocr_result['dt_polys'] # List of polygons
+                texts = ocr_result['rec_texts'] # List of detected texts
+                scores = ocr_result.get('rec_scores', [1.0] * len(texts)) # List of confidences
+                
+                # Draw bounding boxes and text labels
+                for box, text, confidence in zip(boxes, texts, scores):
+                    # box is a list of 4 points [[x1, y1], [x2, y2], [x3, y3], [x4, y4]]
+                    poly = Polygon(box, fill=False, edgecolor='red', linewidth=2)
+                    ax.add_patch(poly)
+                    
+                    # Add text label
+                    ax.text(
+                        box[0][0],  # x coordinate of top-left
+                        box[0][1] - 10,  # y coordinate of top-left (adjusted up)
+                        f'{text} ({confidence:.2f})',
+                        fontsize=8,
+                        bbox=dict(facecolor='yellow', alpha=0.7, edgecolor='none')
+                    )
+            else:
+                print(f"Page {page_num}: Result structure missing required keys or not a dict: {type(ocr_result)}, Keys: {list(ocr_result.keys()) if isinstance(ocr_result, dict) else 'N/A'}")
 
         plt.tight_layout()
         plt.show()
@@ -139,29 +118,30 @@ def extract_text_from_pdf_results(results):
     
     for page_data in results:
         page_num = page_data['page']
-        result = page_data['ocr_result']
+        result_list = page_data['ocr_result']
         
         print(f"\n--- Page {page_num} ---")
         page_text = []
         
-        # Check if result has the expected OCRResult attributes
-        if hasattr(result, 'rec_texts'):
-            # rec_texts is a list of detected strings for the page
-            rec_texts = getattr(result, 'rec_texts', [])
+        # The result is a list, get the first element which is the OCRResult dict
+        if result_list and len(result_list) > 0:
+            ocr_result = result_list[0] # Extract the OCRResult object (dict-like)
             
-            # Optional: Get corresponding scores if available
-            rec_scores = getattr(result, 'rec_scores', [None] * len(rec_texts))
-            
-            for text, score in zip(rec_texts, rec_scores):
-                if score is not None:
+            # Check if the required key exists in the OCRResult
+            if isinstance(ocr_result, dict) and 'rec_texts' in ocr_result:
+                texts = ocr_result['rec_texts'] # List of detected texts
+                scores = ocr_result.get('rec_scores', [1.0] * len(texts)) # List of confidences
+                
+                # Iterate through detected texts and scores
+                for text, score in zip(texts, scores):
                     print(f"Text: {text} (Conf: {score:.2f})")
-                else:
-                    print(f"Text: {text}") # Print without confidence if not available
-                page_text.append(text)
+                    page_text.append(text)
+            else:
+                print(f"Page {page_num}: Result structure missing 'rec_texts' key or not a dict: {type(ocr_result)}, Keys: {list(ocr_result.keys()) if isinstance(ocr_result, dict) else 'N/A'}")
+                # If the structure is unexpected, print it for debugging
+                print(f"Full result: {ocr_result}")
         else:
-            # If the structure is still unexpected, print it
-            print(f"Result object on page {page_num} does not have 'rec_texts' attribute: {type(result)}, {result}")
-            continue # Skip this page's text extraction
+            print(f"Page {page_num}: No result returned or result list is empty.")
 
         full_text.extend(page_text)
     
@@ -170,7 +150,7 @@ def extract_text_from_pdf_results(results):
 # Main execution
 if __name__ == "__main__":
     # Replace with your PDF file path
-    pdf_path = 'sample.pdf'
+    pdf_path = 'christianhymnal.pdf'
     
     # Process PDF with OCR
     print("Starting PDF OCR processing...")
