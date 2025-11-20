@@ -4,3 +4,8 @@ PyMuPDF
 Pillow
 numpy
 pytesseract
+Pillow
+opencv-python
+PyMuPDF
+matplotlib
+numpy
