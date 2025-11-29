@@ -38,4 +38,6 @@ for line in topical_index_lines:
 
 # Print results
 for entry in topical_entries:
-    print(f"Topic: {entry['topic']}, Entry: {entry['entry']}")
+    if len(entry['entry'].split('>>')) < 2:
+        continue
+    print(f"Topic: {entry['topic']}, song: {entry['entry'].split('>>')[0]} ,song number: {entry['entry'].split('>>')[1]}")
