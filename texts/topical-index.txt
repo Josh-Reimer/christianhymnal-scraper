@@ -1,3 +1,4 @@
+**Activity Service**
 A Charge to Keep I Have >> 163
 A Full Surrender>>399
 All Because We Do Not Love Them >> 217
@@ -56,6 +57,14 @@ Winning Souls for Jesus >> 186
 Work, for the Night Is Coming >> 189
 Would Men Know?>>438
 Ye Are the Light of the World >> 157
+
+**Adoration**
+(See "Praise and Adoration")
+
+**Appeal**
+(See "Invitation and Appeal")
+
+**Aspiration**
 At the Cross>>311
 Break Thou the Bread of Life >> 144
 By Thy Blessed Word Obeying >> 415
@@ -120,6 +129,8 @@ The Way of the Cross Leads Home >> 424
 There Shall Be Showers of Blessing >> 37
 Therefore Give Us Love >> 541
 Thy Will Be Done>>390
+
+**Assurance**
 All the Way My Saviour Leads Me >> 466
 Anywhere with Jesus>>470
 Blessed Assurance>>477
@@ -167,11 +178,19 @@ When I See the Blood>>307
 When Peace, Like a River>>484
 Where Jesus Is, 'Tis Heaven>>335
 Will Your Anchor Hold? >> 483
+
+**Atonement**
+(See "Suffering and Atonement")
+
+**Baptism**
 Baptized into Our Saviour's Death>>165
 My God, Accept My Heart>>166
 O Happy Day>>331
 O Lord, While We Confess>>168
 We Bless the Name of Christ, the Lord>>167
+
+**Christmas**
+(Also see "Incarnation and Birth")
 Angels, from the Realms of Glory>>102
 Glory to God in the Highest>>103
 Hark! Are They Not Angels>>91
@@ -192,6 +211,8 @@ There Is No Name so Sweet on Earth>>22
 To Us a Child of Hope Is Born>>101
 While Shepherds Watched Their Flocks>>98
 Zion's Glad Morning>>104
+
+**Closing**
 Abide with Me, I Need Thee>>368
 Bless the Words>>77
 Dismiss Us with Thy Blessing, Lord>>80
@@ -212,6 +233,8 @@ Sun of My Soul>>68
 Take the Name of Jesus with You>>27
 Take Thou My Hand and Lead Me>>504
 The Lord Be with Us>>76
+
+**Comfort and Consolation**
 A Shelter in the Time of Storm>>515
 Anywhere with Jesus>>470
 Be Not Afraid>>530
@@ -282,6 +305,8 @@ What a Friend We Have In Jesus>>350
 What God Hath Promised>>475
 When Peace, Like a River>>484
 Where Could I Go?>>520
+
+**Communion**
 According to Thy Gracious Word>>176
 All Praise to Our Redeeming Lord>>547
 Arise, My Soul, Arise>>112
@@ -309,6 +334,8 @@ The Bond of Perfectness>>550
 The Eventide Falls Gently Now>>110
 'Tis Midnight>>114
 When I Survey the Wondrous Cross>>113
+
+**Conference**
 All Praise to Our Redeeming Lord>>547
 And Are We Yet Alive>>641
 How Pleasant and How Good>>546
@@ -317,6 +344,8 @@ Lord, Cause Thy Face on Us to Shine>>640
 Lord, in Thy Presence>>52
 O God, Our Help>>639
 O Grant Thy Servants, Through Thy Grace>>642
+
+**Confession and Testimony**
 All I Need>>314
 Amazing Grace>>322
 At Calvary>>332
@@ -350,6 +379,14 @@ Tell What He's Done for You>>346
 The Solid Rock>>482
 Thou Art the Way>>341
 Thou Thinkest, Lord, of Me>>488
+
+**Consecration**
+(See "Resignation and Consecration")
+
+**Consolation**
+(See "Comfort and Consolation")
+
+**Cross**
 Behold the Saviour of Mankind>>108
 Cross of Christ, O Sacred Tree>>117
 He Loves Me>>116
@@ -359,6 +396,8 @@ Lead Me to Calvary>>111
 The Hand That Was Wounded for Me>>106
 The Old Rugged Cross>>105
 When I Survey the Wondrous Cross>>113
+
+**Cross Bearing**
 Am I a Soldier of the Cross>>425
 I Will Be True to Thee>>400
 I'm Not Ashamed>>342
@@ -367,6 +406,8 @@ Must Jesus Bear the Cross Alone>>426
 Shall I Be Ashamed?>>343
 The Cross Is Not Greater>>427
 The Way of the Cross Leads Home>>424
+
+**Decision**
 A Full Surrender>>399
 All for Jesus>>403
 Come, Just as You Are>>247
@@ -387,10 +428,14 @@ People of the Living God>>155
 Ready to Do His Will>>404
 Saviour, I'm Coming>>301
 Who'll Be the Next?>>258
+
+**Dedication**
 All Things Are Thine>>643
 Lord of Hosts!>>644
 O Thou, Whose Temple Stands>>645
 When Here, O Lord>>646
+
+**Devotion**
 A Prayer for Grace>>325
 A Shelter in the Time of Storm>>515
 Abide with Me>>356
@@ -577,6 +622,11 @@ Wonderful Jesus>>21
 Wonderful Words of Life>>36
 Worthy Art Thou, Lord>>6
 Ye Nations Round the Earth>>19
+
+**Easter**
+(See "Resurrection")
+
+**Encouragement**
 Be Not Afraid>>530
 Be Ye Strong in the Lord>>448
 Brethren, We Have Met to Worship>>33
@@ -650,10 +700,14 @@ Where the Gates Swing Outward Never>>569
 While the Days Are Going By>>182
 Winning Souls for Jesus>>186
 Would Men Know?>>438
+
+**Eternity**
 Building for Eternity (Coats)>>191
 Building for Eternity (Sargent)>>199
 Eternity>>296
 Where Will You Spend Eternity?>>268
+
+**Evangelistic**
 All Because We Do Not Love Them>>217
 Almost Persuaded>>263
 Are You Washed in the Blood?>>276
@@ -781,6 +835,8 @@ Winning Souls for Jesus>>186
 Wonderful Story of Love>>281
 Work, for the Night Is Coming>>189
 You Can't Do Wrong and Get By>>282
+
+**Evening**
 Abide with Me>>356
 Abide with Me, I Need Thee>>368
 Evening Praise>>73
@@ -793,6 +849,8 @@ Saviour, Breathe an Evening Blessing>>70
 Sun of My Soul>>68
 Take Thou My Hand and Lead Me>>504
 The Lord Be with Us>>76
+
+**Faith**
 All the Way My Saviour Leads Me>>466
 Faith Is a Living Power from Heaven>>455
 Faith Is the Victory>>456
@@ -817,6 +875,8 @@ The Unseen Hand>>467
 There Is a Fountain>>118
 What God Hath Promised>>475
 When I See the Blood>>307
+
+**Faithfulness and Steadfastness**
 A Charge to Keep I Have>>163
 A Few More Years Shall Roll>>576
 Be Ye Strong in the Lord>>448
@@ -871,6 +931,11 @@ Will Your Anchor Hold?>>483
 Would Men Know?>>438
 Ye Are the Light of the World>>157
 Yield Not to Temptation>>441
+
+**Farewell**
+(See "Parting and Farewell")
+
+**Feet Washing**
 Behold, Where, in a Mortal Form>>169
 Christ, in the Night He Was Betrayed>>175
 Exalt the Love of Christ>>173
@@ -878,6 +943,11 @@ Forever Here My Rest>>172
 If I Would Be a Child of God>>174
 Love Consecrates the Humblest Act>>170
 That Doleful Night>>171
+
+**Fellowship**
+(See "Love and Fellowship")
+
+**Funeral**
 Abide with Me>>356
 Asleep in Jesus>>621
 Does Jesus Care?>>528
@@ -939,9 +1009,13 @@ We Are Going Down the Valley>>615
 We'll Never Say Good-by>>656
 We're Going Home Tomorrow>>593
 Will the Circle Be Unbroken?>>613
+
+**Giving**
 All Things Are Thine>>643
 Give to the Lord>>647
 We Give Thee But Thine Own>>648
+
+**God the Father (His Love)**
 Behold What Love>>84
 Come, Thou Almighty King>>1
 God Is Love>>81
@@ -955,15 +1029,21 @@ Such Love, Such Wondrous Love>>87
 The Love of God>>82
 What a Mighty God We Serve!>>16
 Wondrous Love>>83
+
+**Grace**
 A Prayer for Grace>>325
 Amazing Grace>>322
 Grace, 'Tis a Charming Sound>>323
 Wonderful Grace>>324
+
+**Grace for Meals**
 Glory Be to the Father>>649
 God Is Great, and God Is Good>>653
 Grace Before Meals>>650
 Thanks Returned for Meals>>651
 The Lord's Prayer>>652
+
+**Guidance and Keeping**
 All the Way My Saviour Leads Me>>466
 Blessed Bible>>143
 Cling to the Bible>>140
@@ -1015,6 +1095,8 @@ What Tender Mercy>>26
 Where Could I Go?>>520
 Where He Leads I'll Follow>>494
 Yield Not to Temptation>>441
+
+**Heaven**
 A Few More Years Shall Roll>>576
 Be Not Afraid>>530
 Beautiful Valley of Eden>>578
@@ -1063,6 +1145,11 @@ We're Going Home Tomorrow>>593
 When the Roll Is Called up Yonder>>577
 Where the Gates Swing Outward Never>>569
 Will the Circle Be Unbroken?>>613
+
+**Holiness**
+(See "Sanctification and Holiness")
+
+**Holy Spirit**
 Blessed Quietness>>131
 Come, Gracious Spirit, Heavenly Dove>>44
 Come, Thou Almighty King>>1
@@ -1074,11 +1161,15 @@ Spirit so Holy>>133
 The Comforter Has Come>>132
 The Spirit of the Lord Revealed>>147
 Therefore Give Us Love>>541
+
+**Home**
 Happy the Home When God Is There>>556
 Love at Home>>555
 O Happy Home, Where Thou Art Loved>>558
 Precious Memories>>559
 Thou Gracious God Whose Mercy Lends>>557
+
+**Hope**
 A Few More Years Shall Roll>>576
 Beautiful Valley of Eden>>578
 Far, Far Beyond the Starry Sky>>607
@@ -1110,7 +1201,12 @@ We're Going Home Tomorrow>>593
 When the Roll Is Called up Yonder>>577
 Where the Gates Swing Outward Never>>569
 Will the Circle Be Unbroken?>>613
+
+**Incarnation and Birth**
+(Also see "Christmas")
 O Word of God Incarnate>>90
+
+**Invitation and Appeal**
 A Ransom for All>>319
 Almost Persuaded>>263
 Are You Washed in the Blood?>>276
@@ -1199,11 +1295,21 @@ Wonderful Grace>>324
 Wonderful Story of Love>>281
 Wonderful Words of Life>>36
 Ye Must Be Born Again>>326
+
+**Judgment**
+(See "Warning and Judgment")
+
+**Keeping**
+(See "Guidance and Keeping")
+
+**Lord's Day**
 O Day of Rest and Gladness>>65
 O Holy Day>>66
 Safely Through Another Week>>64
 This Is the Day the Lord Hath Made>>122
 Upon the First Day of the Week>>67
+
+**Love and Fellowship**
 All Praise to Our Redeeming Lord>>547
 Blest Be the Dear Uniting Love>>542
 Blest Be the Tie>>548
@@ -1239,10 +1345,14 @@ Walk Daily with Your Saviour>>445
 Walk in the Light>>450
 We're Marching to Zion>>29
 Wondrous Love>>83
+
+**Marriage**
 O God of Wisdom>>553
 O Lord Divine, We Come>>554
 Since Jesus Freely Did Appear>>551
 We Join to Pray>>552
+
+**Marriage Services, Appropriate For**
 Abide with Me, I Need Thee>>368
 All the Way My Saviour Leads Me>>466
 Come, Gracious Spirit, Heavenly Dove>>44
@@ -1267,6 +1377,8 @@ There Shall Be Showers of Blessing>>37
 'Tis so Sweet to Trust in Jesus>>458
 Tread Softly>>39
 Walking in the Sunshine>>440
+
+**Ministry**
 A Charge to Keep I Have>>163
 Are You Adorning the Doctrine?>>158
 Chief Shepherd>>635
@@ -1280,6 +1392,8 @@ Pour Out Thy Spirit>>636
 Speak Gently>>162
 We Give Thee but Thine Own>>648
 While the Days Are Going By>>182
+
+**Mission**
 All Because We Do Not Love Them>>217
 Bid Them Look to Christ>>219
 Bring Them In>>213
@@ -1321,6 +1435,8 @@ While the Days Are Going By>>182
 Winning Souls for Jesus>>186
 Wonderful Story of Love>>281
 Work, for the Night Is Coming>>189
+
+**Morning**
 As the Sun Doth Daily Rise>>61
 Begin the Day with God>>62
 Every Morning Mercies New>>57
@@ -1329,15 +1445,21 @@ I Owe the Lord a Morning Song>>58
 My God, How Endless Is Thy Love>>45
 Now the Shades of Night Are Gone>>60
 Saviour, Hear Us, We Pray>>59
+
+**New Birth and Regeneration**
 At Calvary>>332
 Glorious Peace>>337
 Love Lifted Me>>330
 O Happy Day>>331
 The Hallowed Spot>>327
 Ye Must Be Born Again>>326
+
+**New Year**
 And Now, My Soul, Another Year>>629
 Another Year Is Dawning>>631
 Now, Gracious Lord, Thine Arm Reveal>>630
+
+**Opening**
 All Hail the Power of Jesus' Name>>13
 And Are We Yet Alive>>641
 As the Sun Doth Daily Rise>>61
@@ -1377,11 +1499,15 @@ We Now Have Met to Worship Thee>>54
 Where He Leads I'll Follow>>494
 Wonderful Words of Life>>36
 Worthy Art Thou, Lord>>6
+
+**Ordination**
 Chief Shepherd>>635
 Great King of Saints>>638
 Here, Lord of Life and Light>>637
 Make Me a Blessing Today>>416
 Pour Out Thy Spirit>>636
+
+**Parting and Farewell**
 Bless the Words>>77
 Blest Be the Dear Uniting Love>>542
 Blest Be the Tie>>548
@@ -1394,8 +1520,12 @@ Shall We Meet Beyond the River>>602
 Shall We Meet Here No More>>657
 Some Sweet Day>>623
 We'll Never Say Good-By>>656
+
+**Peace**
 Glorious Peace>>337
 Sweet Peace, the Gift of God's Love>>336
+
+**Praise and Adoration**
 All Hail the Power of Jesus' Name>>13
 And Are We Yet Alive>>641
 Behold What Love>>84
@@ -1468,6 +1598,8 @@ Wonderful Story of Love>>281
 Wondrous Love>>83
 Worthy Art Thou, Lord>>6
 Ye Nations Round the Earth>>19
+
+**Prayer and Supplication**
 A Few More Years Shall Roll>>576
 A Prayer for Grace>>325
 Abide with Me>>356
@@ -1537,6 +1669,8 @@ Use Me, O My Gracious Saviour>>419
 Watch unto Prayer>>463
 What a Friend We Have in Jesus>>350
 When Here, O Lord>>646
+
+**Redemption**
 A Prayer for Grace>>325
 A Ransom for All>>319
 All I Need>>314
@@ -1589,6 +1723,8 @@ Where Jesus Is, 'Tis Heaven>>335
 Wonderful Grace>>324
 Wondrous Love>>83
 Ye Must Be Born Again>>326
+
+**Refuge**
 A Shelter in the Time of Storm>>515
 Alone with God>>358
 Blessed Quietness>>131
@@ -1644,6 +1780,11 @@ Trusting Jesus>>459
 What God Hath Promised>>475
 Where He Leads I'll Follow>>494
 Will Your Anchor Hold?>>483
+
+**Regeneration**
+(See "New Birth and Regeneration")
+
+**Resignation and Consecration**
 A Full Surrender>>399
 A Prayer for Grace>>325
 All for Jesus>>403
@@ -1730,12 +1871,16 @@ Walk Daily with Your Saviour>>445
 Walking in the Sunshine>>440
 When Here, O Lord>>646
 Whiter than Snow>>407
+
+**Resurrection**
 Awake, Awake, O Earth>>120
 Christ Arose>>119
 Christ, the Lord, Is Risen Today>>123
 Look, Ye Saints>>121
 This Is the Day the Lord Hath Made>>122
 Upon the First Day of the Week>>67
+
+**Reward**
 Bringing Home Our Sheaves>>581
 Bringing In the Sheaves>>187
 Christ's Return>>130
@@ -1755,6 +1900,8 @@ This Is Not My Place of Resting>>582
 To the Work>>185
 We'll Work till Jesus Comes>>203
 Where the Gates Swing Outward Never>>569
+
+**Salvation**
 Amazing Grace>>322
 At Calvary>>332
 Blessed Assurance>>477
@@ -1795,6 +1942,8 @@ When Peace, Like a River>>484
 Where Jesus Is, 'Tis Heaven>>335
 Wonderful Grace>>324
 Wondrous Love>>83
+
+**Sanctification and Holiness**
 All I Need>>314
 Church of God>>151
 Humble Thyself to Walk with God>>430
@@ -1815,6 +1964,8 @@ The Blameless Church>>150
 The Christian's Passport>>432
 The Temple of God>>433
 Whiter than Snow>>407
+
+**Second Coming**
 At the Saviour's Right Hand>>292
 Be Ready When He Comes>>285
 Christ the Lord Cometh?>>125
@@ -1834,6 +1985,11 @@ When the Roll Is Called up Yonder>>577
 Where Shall I Be?>>286
 Where Will I Go?>>290
 Will Jesus Find Us Watching?>>284
+
+**Service**
+(See "Activity Service")
+
+**Special Occasion**
 All Things Are Thine>>643
 And Are We Yet Alive>>641
 And Now, My Soul, Another Year>>629
@@ -1863,6 +2019,11 @@ The Lord's Prayer>>652
 We Give Thee But Thine Own>>648
 We'll Never Say Good-by>>656
 When Here, O Lord>>646
+
+**Steadfastness**
+(See "Faithfulness and Steadfastness")
+
+**Suffering and Atonement**
 According to Thy Gracious Word>>176
 Are You Washed in the Blood?>>276
 Arise, My Soul, Arise>>112
@@ -1890,12 +2051,22 @@ There Is Power in the Blood>>278
 Thou Spotless Lamb of God>>310
 'Tis Midnight>>114
 When I Survey the Wondrous Cross>>113
+
+**Supplication**
+(See "Prayer and Supplication")
+
+**Testimony**
+(See "Confession and Testimony")
+
+**Thanksgiving**
 Blessed Be the Name>>3
 For the Beauty of the Earth>>634
 I Thank the Lord My Maker>>632
 Loving Kindness>>17
 Praise to God, Immortal Praise>>633
 Ye Nations Round the Earth>>19
+
+**The Church**
 A Charge to Keep I Have>>163
 According to Thy Gracious Word>>176
 Are You Adorning the Doctrine?>>158
@@ -1930,6 +2101,8 @@ The Church of the Living God>>152
 The Solid Rock>>482
 We Bless the Name of Christ, the Lord>>167
 Ye Are the Light of the World>>157
+
+**The Word**
 Blessed Bible>>143
 Break Thou the Bread of Life>>144
 Cling to the Bible>>140
@@ -1945,6 +2118,8 @@ The Spirit of the Lord Revealed>>147
 Thy Word Have I Hid in My Heart>>141
 Weighed in the Balance>>294
 Wonderful Words of Life>>36
+
+**Trust**
 All the Way My Saviour Leads Me>>466
 Anywhere with Jesus>>470
 Consecration>>398
@@ -1997,6 +2172,8 @@ Trust Your Hand into His>>463
 Trusting Jesus>>459
 What God Hath Promised>>475
 Where He Leads I'll Follow>>494
+
+**Warning and Judgment**
 All Because We Do Not Love Them>>217
 Almost Persuaded>>263
 At the Saviour's Right Hand>>292
@@ -2048,6 +2225,11 @@ Will Jesus Find Us Watching?>>284
 Work, for the Night Is Coming>>189
 Ye Must Be Born Again>>326
 You Can't Do Wrong and Get By>>282
+
+**Wedding**
+(See "Marriage")
+
+**Worship**
 All Hail the Power of Jesus' Name>>13
 As the Sun Doth Daily Rise>>61
 Begin the Day with God>>62
@@ -2130,6 +2312,8 @@ Wonderful Jesus>>21
 Wonderful Words of Life>>36
 Worthy Art Thou, Lord>>6
 Ye Nations Round the Earth>>19
+
+**Youth**
 Cling to the Bible>>140
 Dare to Be a Daniel>>563
 Fairest Lord Jesus>>565
@@ -2155,3 +2339,4 @@ Stepping in the Light>>561
 Teach Me Thy Will, O Lord>>566
 Thine for Service>>181
 Yield Not to Temptation>>441
+
