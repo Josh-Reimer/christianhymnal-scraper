@@ -11,7 +11,7 @@ from matplotlib.patches import Polygon
 import numpy as np
 import cv2
 
-def pdf_to_images(pdf_path, dpi=200):
+def pdf_to_images(pdf_path, dpi=350):
     """
     Convert PDF pages to images
     Higher DPI = better quality but larger files
@@ -163,7 +163,7 @@ if __name__ == "__main__":
     # visualize_pdf_results(results)
     
     # Save extracted text to file
-    with open('extracted_text.txt', 'w', encoding='utf-8') as f:
+    with open('texts/htext-v2.txt', 'w', encoding='utf-8') as f:
         f.write(full_text)
     
     print("\nOCR processing complete!")
